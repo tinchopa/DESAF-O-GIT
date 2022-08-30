@@ -31,8 +31,7 @@ li{
 	padding: 4px;
 	list-style: none;
 	font-size: small;
-
-
+	
 }
 
 
@@ -69,6 +68,31 @@ footer div{
 footer p{
 	padding: 5px;
 }
+
+
+ul li a:hover{
+	color: white;
+	font-size: 30px;
+
+}
+
+.logo-inicio{
+
+ animation-duration: 5s;
+ animation-name: aparecer;
+}
+@keyframes aparecer {
+ 
+ 0% {
+ opacity: 0;
+ }
+ 
+ 100% {
+ opacity: 1;
+ 
+}
+}
+
 
 
 
@@ -109,4 +133,6 @@ footer div img{
 	width: 100px;
 
 }
+
+
 }
